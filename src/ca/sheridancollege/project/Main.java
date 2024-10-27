@@ -9,7 +9,7 @@ import java.util.Scanner;
 /**
  *
  * @author hassa
- */
+ * @author maaida
 public class Main {
 
     public static void main(String[] args) {
