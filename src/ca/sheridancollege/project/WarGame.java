@@ -124,22 +124,4 @@ public class WarGame extends Game {
             players.get(i % 2).addCard((WarCard) deck.getCards().get(i));
         }
     }
-
-    public static void main(String[] args) {
-        WarGame game = new WarGame("War Card Game");
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Welcome to the War Card Game!");
-
-        for (int i = 1; i <= 2; i++) {
-            System.out.print("Enter name for Player " + i + ": ");
-            String playerName = scanner.nextLine();
-            game.registerPlayer(playerName);
-        }
-
-        game.play();
-        game.declareWinner();
-
-        scanner.close();
-    }
 }
