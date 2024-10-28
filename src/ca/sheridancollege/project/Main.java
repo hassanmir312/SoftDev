@@ -10,6 +10,8 @@ import java.util.Scanner;
  *
  * @author hassa
  * @author maaida
+   @author hardeep
+   @author Xiuyu
 public class Main {
 
     public static void main(String[] args) {
